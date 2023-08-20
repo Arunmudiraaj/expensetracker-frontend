@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  gap: 1rem;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+  & > button {
+    padding: 7px 14px;
+    background-color: purple;
+    font-weight: 700;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+}
+.login {
+  font-family: sans-serif;
+  font-size: small;
+  cursor: pointer;
+  & > span {
+    color: green;
+  }
+}
+.title {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: larger;
+}
+input {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: medium;
+  box-sizing: border-box;
+  outline: none;
+  &:focus {
+    border-color: purple; /* Change the border color when the input is active */
+    box-shadow: 0 0 3px purple;
+  }
+}
+.forgotPassword {
+  align-self: flex-end;
+  color: rgb(42, 93, 165);
+  cursor: pointer;
+  font-family: sans-serif;
+}
+.red {
+  background-color: green;
+}

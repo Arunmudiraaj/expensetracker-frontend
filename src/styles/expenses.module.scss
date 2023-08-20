@@ -1,0 +1,72 @@
+.table {
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  font-family: sans-serif;
+  overflow-x: scroll;
+
+  td {
+    text-align: center;
+    padding: 10px 0;
+  }
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+}
+
+.deleteBtn {
+  background-color: red;
+  padding: 4px 8px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+.navDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.navBtn {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: #007bff; /* Replace with your desired button color */
+  color: #fff; /* Replace with your desired text color */
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navBtn:hover {
+  opacity: 0.9; /* Replace with your desired hover color */
+}
+.navInfo {
+  //   font-weight: 700;
+  font-family: sans-serif;
+}
+.navNum {
+  font-weight: 700;
+}
+.selectPage {
+  display: flex;
+  font-family: sans-serif;
+  padding-right: 2.5rem;
+  justify-content: flex-end;
+  gap: 15px;
+  align-items: center;
+
+  padding-bottom: 0.5rem;
+}
+.numberSelect {
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid #007bff;
+  outline: none;
+  padding: 5px 10px;
+}
